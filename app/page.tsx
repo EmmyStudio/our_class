@@ -5,9 +5,11 @@ import { Footer } from "./footer";
 
 export default function Home() {
   return (
-    <div className="bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="relative bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat 
+                    before:absolute before:inset-0 before:bg-black/50 before:rounded-lg
+                     flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <NavBar />
-      <main className="flex flex-1 w-full max-w-6xl flex-row items-center justify-around gap-24 py-32 px-8  sm:items-start">
+      <main className=" z-10 flex flex-1 w-full max-w-6xl flex-row items-center justify-around gap-24 py-32 px-8  sm:items-start">
         
         <div>
           <div className="flex flex-col items-center gap-5 text-center sm:items-start sm:text-left">
@@ -27,6 +29,7 @@ export default function Home() {
               href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               target="_blank"
               rel="noopener noreferrer"
+              id='button'
             >
               Get in Touch
             </a>
