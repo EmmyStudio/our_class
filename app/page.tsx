@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <NavBar />
-      <main className="flex flex-1 w-full max-w-6xl flex-row items-center justify-around gap-24 py-32 px-8 bg-white dark:bg-black sm:items-start">
+      <main className="flex flex-1 w-full max-w-6xl flex-row items-center justify-around gap-24 py-32 px-8  sm:items-start">
         
         <div>
           <div className="flex flex-col items-center gap-5 text-center sm:items-start sm:text-left">
