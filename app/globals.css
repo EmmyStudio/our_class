@@ -30,3 +30,7 @@ body {
 #button {
   color: var(--link-color);
 }
+
+#bigText {
+  font-family: 'Times New Roman', Times, serif;
+}

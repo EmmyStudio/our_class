@@ -16,7 +16,7 @@ export default function Home() {
             <h3 className="">
               PRIVATE EQUITY
             </h3>
-            <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            <h1 className="max-w-xs text-4xl scale-125 origin-left leading-10 text-black dark:text-zinc-50" id='bigText'>
               Building valuable corporate legacies on foundations of trust
             </h1>
             <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
