@@ -37,17 +37,17 @@ export default function Home() {
         </div>
         
 
-        <div className="flex flex-col items-center gap-5 text-center sm:items-start sm:text-left">
+        <div className="flex flex-col rounded-lg bg-zinc-300 p-6 text-zinc-900 shadow-md items-center gap-5 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
           $8.7B+
           </h1>
-          <div className="text-right">
+          <div className="text-left">
             <h4>
               Assets Under Management
             </h4>
-            <p>
+            <h4>
               Across Six Institutional Funds
-            </p>
+            </h4>
           </div>
         </div>
       </main>
