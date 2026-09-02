@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { NavBar } from "./nav_bar";
+import { NavBar } from "./navbar";
 import "./globals.css";
 import { Footer } from "./footer";
 
