@@ -10,7 +10,7 @@ export default function Second() {
             <div className="max-w-170 pl-45 text-zinc-400">
                 <p>Our investment professionals bring deep secror expertise across healthcare, technology, industrials and business services — identifying opportunities where disciplined capital and operational excellence create lasting value</p>
             </div>
-            <div className="p-10 pl-45 flex gap-3">
+            <div className="p-10 pl-45 pr-45 flex gap-3">
                 <div className="border border-solid border-black bg-zinc-900 p-12">
                     <h1 className="text-4xl max-w-xs text-white" id="bigText">
                         20+
