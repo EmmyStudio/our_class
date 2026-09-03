@@ -2,9 +2,12 @@ import Image from "next/image";
 import { NavBar } from "./navbar";
 import "./globals.css";
 import { Footer } from "./footer";
+import Second from "@/components/second";
+import Third from "@/components/third";
 
 export default function Home() {
   return (
+    <>
     <div className="relative bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat 
                     before:absolute before:inset-0 before:bg-black/50 before:rounded-lg
                      flex flex-col flex-1 flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans dark:bg-black">
@@ -51,8 +54,13 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <Footer />
+
+
+
+      <Footer/>
       
     </div>
+    <Second/>
+    </>
   );
 }

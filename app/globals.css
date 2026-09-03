@@ -5,6 +5,7 @@
   --foreground: #171717;
   --font-color: #820b0b;
   --link-color: #789fe7;
+  --natural-color: #e6eaf2;
 }
 
 @theme inline {
@@ -34,3 +35,4 @@ body {
 #bigText {
   font-family: 'Times New Roman', Times, serif;
 }
+
