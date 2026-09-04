@@ -25,8 +25,8 @@ export default function Fourth() {
                 <div className="">
                     <p className="text-red-700 text-lg" id="bigText">Portfolio Revenue Growth</p>
                     <div className="flex flex-col gap-3 pt-8">
-                        <h1 className="text-6xl max-w-xs text-white" id="bigText">
-                            69<span className="text-zinc-500">%</span>
+                        <h1>
+                            <span className="text-6xl max-w-xs text-white" id="bigText">69</span><span className="text-2xl max-w-xs text-zinc-500">%</span>
                         </h1>
                         <p className="text-zinc-500 max-w-100">Average revenue growth achieved across portfolio companies within the first three years of Northvale ownership, driven by strategic operational initiatives</p>
                     </div>

@@ -28,7 +28,6 @@ export default function Fifth()
                     </div>
                 </div>
             </div>
-
             <div className="z-10 flex justify-between gap-30 text-zinc-200">
                 <p className="max-w-85">Proprietary origination and rigorous underwriting deliver consistent risk-adjusted returns through multiple economic cycles.</p>
                 <p className="max-w-xl">Our value creation playbook has driven measurable EBITDA growth across 85+ portfolio companies in six consecutive fund vintages </p>
