@@ -14,7 +14,7 @@ export default function Home() {
     <div className="relative bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat 
                     before:absolute before:inset-0 before:bg-black/50 before:rounded-lg
                     flex flex-col flex-1 flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <NavBar />
+      <NavBar/>
       <main className=" z-10 flex flex-1 w-full max-w-6xl flex-row flex-grow items-center justify-around gap-24 py-32 px-8  sm:items-start">
         
         <div>
@@ -58,9 +58,15 @@ export default function Home() {
         </div>
       </main>
 
+      <div className="flex w-full items-center justify-center border-t border-zinc-200 bg-white/90 px-6 py-4 shadow-sm backdrop-blur dark:border-zinc-800 dark:bg-black/80">
+      <p className="text-sm text-zinc-600 dark:text-zinc-400">
+        New Horizons Nigeria
+        </p>
+      </div>
 
 
-      <Footer/>
+
+      
       
     </div>
     <Second/>
@@ -68,6 +74,8 @@ export default function Home() {
     <Fourth/>
     <Fifth/>
     <Sixth/>
+    
+    <Footer/>
     </>
   );
 }
