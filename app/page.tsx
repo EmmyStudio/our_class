@@ -4,6 +4,7 @@ import "./globals.css";
 import { Footer } from "./footer";
 import Second from "@/components/second";
 import Third from "@/components/third";
+import Fourth from "@/components/fourth";
 
 export default function Home() {
   return (
@@ -62,6 +63,7 @@ export default function Home() {
     </div>
     <Second/>
     <Third/>
+    <Fourth/>
     </>
   );
 }
