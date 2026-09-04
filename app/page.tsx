@@ -7,6 +7,7 @@ import Third from "@/components/third";
 import Fourth from "@/components/fourth";
 import Fifth from "@/components/fifth";
 import Sixth from "@/components/sixth";
+import Seventh from "@/components/seventh";
 
 export default function Home() {
   return (
@@ -74,8 +75,6 @@ export default function Home() {
     <Fourth/>
     <Fifth/>
     <Sixth/>
-    
-    <Footer/>
     </>
   );
 }
