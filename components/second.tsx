@@ -11,7 +11,7 @@ export default function Second() {
                 <p>Our investment professionals bring deep secror expertise across healthcare, technology, industrials and business services — identifying opportunities where disciplined capital and operational excellence create lasting value</p>
             </div>
             <div className="p-10 pl-45 pr-45 flex gap-3">
-                <div className="border border-solid border-black bg-zinc-900 p-12">
+                <div className="border border-solid border-black bg-zinc-900 p-12 transition-colors hover:bg-red-600 hover:text-white">
                     <h1 className="text-4xl max-w-xs text-white" id="bigText">
                         20+
                     </h1>
@@ -20,7 +20,7 @@ export default function Second() {
                         <p className="text-zinc-500">Active Direct Investment</p>
                     </div>
                 </div>
-                <div className="border border-solid border-black bg-zinc-900 p-12">
+                <div className="border border-solid border-black bg-zinc-900 p-12 transition-colors hover:bg-red-600 hover:text-white">
                     <h1 className="text-4xl max-w-xs text-white" id="bigText">
                         85+
                     </h1>
@@ -29,7 +29,7 @@ export default function Second() {
                         <p className="text-zinc-500">Acquired Across Six Funds</p>
                     </div>
                 </div>
-                <div className="border border-solid border-black bg-white p-12">
+                <div className="border border-solid border-black bg-white p-12 transition-colors hover:bg-red-600 hover:text-white">
                     <h1 className="text-4xl max-w-xs" id="bigText">
                         $4.2B
                     </h1>
@@ -38,7 +38,7 @@ export default function Second() {
                         <p className="text-zinc-500">Assets Under Management</p>
                     </div>
                 </div>
-                <div className="border border-solid border-black bg-zinc-900 p-12">
+                <div className="border border-solid border-black bg-zinc-900 p-12 transition-colors hover:bg-red-600 hover:text-white">
                     <h1 className="text-4xl max-w-xs text-white" id="bigText">
                         28%
                     </h1>
