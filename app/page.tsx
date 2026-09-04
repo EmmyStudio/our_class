@@ -6,6 +6,7 @@ import Second from "@/components/second";
 import Third from "@/components/third";
 import Fourth from "@/components/fourth";
 import Fifth from "@/components/fifth";
+import Sixth from "@/components/sixth";
 
 export default function Home() {
   return (
@@ -66,6 +67,7 @@ export default function Home() {
     <Third/>
     <Fourth/>
     <Fifth/>
+    <Sixth/>
     </>
   );
 }
