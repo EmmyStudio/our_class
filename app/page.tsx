@@ -5,13 +5,14 @@ import { Footer } from "./footer";
 import Second from "@/components/second";
 import Third from "@/components/third";
 import Fourth from "@/components/fourth";
+import Fifth from "@/components/fifth";
 
 export default function Home() {
   return (
     <>
     <div className="relative bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat 
                     before:absolute before:inset-0 before:bg-black/50 before:rounded-lg
-                     flex flex-col flex-1 flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+                    flex flex-col flex-1 flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <NavBar />
       <main className=" z-10 flex flex-1 w-full max-w-6xl flex-row flex-grow items-center justify-around gap-24 py-32 px-8  sm:items-start">
         
@@ -64,6 +65,7 @@ export default function Home() {
     <Second/>
     <Third/>
     <Fourth/>
+    <Fifth/>
     </>
   );
 }
