@@ -45,7 +45,7 @@ export default function Sixth() {
                         />
                         <div>
                             <h3 className="text-black">Emmi Calloway</h3>
-                            <p className="text-zinc-500">CEO, Meridian Group</p>
+                            <p className="text-black">CEO, Meridian Group</p>
                         </div>
                     </div>
                     <h2 className="text-4xl max-w-110 text-black" id="bigText">
