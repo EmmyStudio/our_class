@@ -63,7 +63,7 @@ export function Footer() {
       
       </div>
       <div className="flex justify-left items-left p-10 border-t border-solid border-zinc-500">
-      <img src="/footer.webp" alt="NH Nigeria" className="w-auto h-auto" />
+      <img src="/footer.webp" alt="NHNigeria" className="w-auto h-auto" />
       </div>
     
     </div>
