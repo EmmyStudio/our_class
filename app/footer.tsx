@@ -15,13 +15,13 @@ export function Footer() {
           <h5 className="text-2xl text-zinc-600 dark:text-zinc-400" id="bigText">
             Support
           </h5>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             About Us
           </a>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             Contact Us
           </a>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             Our Careers
           </a>
         </div>
@@ -29,16 +29,16 @@ export function Footer() {
           <h5 className="text-2xl text-zinc-600 dark:text-zinc-400" id="bigText">
             Legal
           </h5>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             Privacy Policy
           </a>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             Terms of Service
           </a>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             Cookie Policy
           </a>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             Accessibility
           </a>
         </div>
@@ -46,16 +46,16 @@ export function Footer() {
           <h5 className="text-2xl text-zinc-600 dark:text-zinc-400" id="bigText">
             Support
           </h5>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             Help
           </a>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             Contact Us
           </a>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
             FAQs
           </a>
-          <a href="https://github.com/EmmyStudios" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
+          <a href="https://github.com/EmmyStudio" className="block text-7xs text-white dark:text-white hover:text-green-500 transition-colors" id="bigText">
           Live Chat
           </a>
         </div>
