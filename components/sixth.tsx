@@ -44,7 +44,7 @@ export default function Sixth() {
                             className="w-12 h-12 object-cover rounded-full"
                         />
                         <div>
-                            <h3 className="text-zinc-200">Emmi Calloway</h3>
+                            <h3 className="text-black">Emmi Calloway</h3>
                             <p className="text-zinc-500">CEO, Meridian Group</p>
                         </div>
                     </div>
