@@ -1,6 +1,9 @@
 import Image from "next/image";
 import SeconD from "./components/seconD";
 import ThirD from "./components/thirD";
+import FourtH from "./components/fourtH";
+import FiftH from "./components/fiftH";
+import SixtH from "./components/sixtH";
 export default function () {
     return (
         <>
@@ -80,6 +83,9 @@ export default function () {
 
                 <SeconD />
                 <ThirD />
+                <FourtH />
+                <FiftH />
+                <SixtH />
             </div>
 
         </>
