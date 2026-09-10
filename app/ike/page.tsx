@@ -4,10 +4,11 @@ import ThirD from "./components/thirD";
 import FourtH from "./components/fourtH";
 import FiftH from "./components/fiftH";
 import SixtH from "./components/sixtH";
+import Final from "./components/final";
 export default function () {
     return (
         <>
-            <div className="flex flex-col gap-40 bg-white p-10">
+            <div className="flex flex-col gap-40 bg-white p-15">
                 <div className="flex flex-col border border-white rounded-4xl bg-black gap-10 pd-15">
                     <div className="flex flex-col bg-pink-100 border border-white rounded-4xl items-center gap-10 pt-15 pl-15 pr-15">
                         <h1 className="text-8xl max-w-4xl text-black text-center font-bold" id="bigText">
@@ -86,7 +87,9 @@ export default function () {
                 <FourtH />
                 <FiftH />
                 <SixtH /> 
+                
             </div>
+            <Final />
 
         </>
     )
