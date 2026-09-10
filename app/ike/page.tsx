@@ -85,7 +85,7 @@ export default function () {
                 <ThirD />
                 <FourtH />
                 <FiftH />
-                <SixtH />
+                <SixtH /> 
             </div>
 
         </>
