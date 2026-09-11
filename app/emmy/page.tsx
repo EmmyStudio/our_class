@@ -197,14 +197,14 @@ export default function () {
     
 <div className="flex flex-col items-center gap-16 bg-white p-8">
 
-    <h1 className="text-4xl font-bold text-black text-center">
+    <h1 className="text-4xl font-bold text-black text-center" id="bigText">
         Choose the Plan That Fits You Best
     </h1>
 
     <div className="flex flex-row gap-6 max-w-6xl">
 
-        {/* General plan */}
-        <div className="flex flex-col items-center text-center gap-4 bg-yellow-200 rounded-2xl p-8 w-80">
+        
+        <div className="flex flex-col items-center text-center gap-4 bg-orange-600 rounded-2xl p-8 w-80">
             <FiGift className="text-black w-8 h-8" />
             <h3 className="text-xl font-semibold text-black">General</h3>
             <p className="text-sm text-zinc-700">Perfect for beginners wanting to build a strong foundation.</p>
@@ -217,23 +217,23 @@ export default function () {
 
             <div className="flex flex-col items-start gap-3 w-full pt-2">
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Access to Basic English Program</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Weekly live sessions</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Community forum access</p>
                 </div>
             </div>
         </div>
 
-        {/* Advanced plan */}
-        <div className="flex flex-col items-center text-center gap-4 bg-purple-100 rounded-2xl p-8 w-80">
-            <FiAward className="text-black w-8 h-8" strokeWidth={1.5} />
+        
+        <div className="flex flex-col items-center text-center gap-4 bg-blue-500 rounded-2xl p-8 w-80">
+            <FiAward className="text-black w-8 h-8" />
             <h3 className="text-xl font-semibold text-black">Advanced</h3>
             <p className="text-sm text-zinc-700">Ideal for intermediate learners seeking fluency.</p>
 
@@ -245,23 +245,23 @@ export default function () {
 
             <div className="flex flex-col items-start gap-3 w-full pt-2">
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Unlimited course access</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Weekly one-on-one mentoring</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Priority support and certification</p>
                 </div>
             </div>
         </div>
 
-        {/* Business plan */}
-        <div className="flex flex-col items-center text-center gap-4 bg-yellow-200 rounded-2xl p-8 w-80">
-            <FiGift className="text-black w-8 h-8" strokeWidth={1.5} />
+
+        <div className="flex flex-col items-center text-center gap-4 bg-orange-600 rounded-2xl p-8 w-80">
+            <FiGift className="text-black w-8 h-8" />
             <h3 className="text-xl font-semibold text-black">Business</h3>
             <p className="text-sm text-zinc-700">Ideal for intermediate learners seeking fluency.</p>
 
@@ -273,15 +273,15 @@ export default function () {
 
             <div className="flex flex-col items-start gap-3 w-full pt-2">
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Access to all courses</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Bi-weekly live coaching</p>
                 </div>
                 <div className="flex items-center gap-2">
-                    <FiCheckCircle className="text-purple-600 w-5 h-5" />
+                    <FiCheckCircle className="text-black w-5 h-5" />
                     <p className="text-sm text-black">Progress tracking</p>
                 </div>
             </div>
@@ -324,3 +324,5 @@ export default function () {
     </>
     )
 }
+
+
