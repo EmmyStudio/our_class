@@ -296,7 +296,7 @@ export default function () {
     <h1 className="text-4xl font-bold text-black text-center">What Our Students Say</h1>
 
     
-    <div className="flex flex-row items-center justify-center gap-4">
+    <div className="flex flex-row items-center justify-center">
 
         <img src="/ceo1.jpg" alt="Student" className="w-32 h-56 object-cover rounded-2xl opacity-60" />
         <img src="/ceo2.jpg" alt="Student" className="w-36 h-64 object-cover rounded-2xl opacity-80" />
