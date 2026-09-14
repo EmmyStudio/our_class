@@ -45,7 +45,7 @@ export default function Final() {
                 </div>
                 <div className="flex flex-col items-center gap-10">
                     <p className="text-3xl text-black max-w-4xl text-center">"The CEH v13 AI course at New Horizons gave me real-world command over both cutting-edge offensive tools and defense strategies. Passing the exam accelerated my cybersecurity career instantly."</p>
-                    <p className="text-3xl text-orange">Certified Ethical Hacker Alum, New Horizons Nigeria</p>
+                    <p className="text-3xl text-orange">Certified Ethical Hacker Alum, New Horizons Nigeria.</p>
                 </div>
 
             </div>

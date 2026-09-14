@@ -6,7 +6,7 @@ import { GrCertificate } from "react-icons/gr";
 export default function SeconD() {
     return (
         <div className="flex flex-col items-center gap-20">
-            <h1 className="text-8xl max-w-6xl text-black text-center font-bold" id="bigText">
+            <h1 className="text-7xl max-w-6xl text-black text-center" id="biggerText">
                  Core Cybersecurity Tracks
             </h1>
             <div className="flex gap-5">

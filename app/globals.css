@@ -38,3 +38,6 @@ body {
 #bigText {
   font-family: 'Times New Roman', Times, serif;
 }
+#biggerText {
+  font-family: sans-serif;
+}
