@@ -6,7 +6,7 @@ export default function FiftH() {
                  Meet Our Cybersecurity Instructors
             </h1>
             <div className="flex gap-5 mx-auto">
-                <div className="flex max-w-80 flex-col gap-10 border items-center border-white rounded-3xl bg-pink-100 p-7">
+                <div className="flex max-w-80 flex-col gap-10 border items-center border-white rounded-3xl bg-lightblue p-7">
                     <Image
                         src="/man1.jpg"
                         width={300}
@@ -21,7 +21,7 @@ export default function FiftH() {
                         <p className="text-2xl w-63 text-zinc-700">15+ years of experience in Business English coaching</p>
                     </div>
                 </div>
-                <div className="flex max-w-80 flex-col gap-10 border border-white rounded-3xl bg-yellow-200 p-7">
+                <div className="flex max-w-80 flex-col gap-10 border border-white rounded-3xl bg-darkblue p-7">
                     <Image
                         src="/man2.jpg"
                         width={250}
@@ -33,7 +33,7 @@ export default function FiftH() {
                         Robert Lee
                     </h1>
                 </div>
-                <div className="flex max-w-80 flex-col gap-10 border border-white rounded-3xl bg-pink-100 p-7">
+                <div className="flex max-w-80 flex-col gap-10 border border-white rounded-3xl bg-lightblue p-7">
                     <Image
                         src="/woman1.jpg"
                         width={250}
@@ -44,7 +44,7 @@ export default function FiftH() {
                         Sophia Marti
                     </h1>
                 </div>
-                <div className="flex max-w-80 flex-col gap-10 border border-white rounded-3xl bg-yellow-200 p-7">
+                <div className="flex max-w-80 flex-col gap-10 border border-white rounded-3xl bg-darkblue p-7">
                     <Image
                         src="/woman2.jpg"
                         width={250}

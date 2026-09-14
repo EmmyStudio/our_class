@@ -6,13 +6,13 @@ export default function SeconD() {
                  Core Cybersecurity Tracks
             </h1>
             <div className="flex gap-5">
-                <div className="flex flex-col items-center gap-7 border border-pink-100 rounded-3xl bg-pink-100 p-5 pr-10 pl-10">
+                <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10">
                     <Image
                         src="/firstIcon.png"
                         width={100}
                         height={100}
                         alt="icon1"
-                        className="w-20 h-20 object-cover border bg-purple-500 rounded-full"
+                        className="w-20 h-20 object-cover border bg-orange rounded-full"
                     />
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-black">
@@ -22,13 +22,13 @@ export default function SeconD() {
                     </div>
 
                 </div>
-                <div className="flex flex-col items-center gap-7 border border-purple-500 rounded-3xl bg-purple-500 p-5 pr-10 pl-10">
+                <div className="flex flex-col items-center gap-7 border border-darkblue rounded-3xl bg-darkblue p-5 pr-10 pl-10">
                     <Image
                         src="/secondIcon.png"
                         width={100}
                         height={100}
                         alt="icon2"
-                        className="w-20 h-20 object-cover border bg-pink-100 rounded-full"
+                        className="w-20 h-20 object-cover border bg-lightblue p-1 rounded-full"
                     />
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-zinc-200">
@@ -38,13 +38,13 @@ export default function SeconD() {
                     </div>
 
                 </div>
-                <div className="flex flex-col items-center gap-7 border border-pink-100 rounded-3xl bg-pink-100 p-5 pr-10 pl-10">
+                <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10">
                     <Image
                         src="/thirdIcon.png"
                         width={100}
                         height={100}
                         alt="icon3"
-                        className="w-20 h-20 object-cover border bg-purple-500 rounded-full"
+                        className="w-20 h-20 object-cover border bg-orange p-1 rounded-full"
                     />
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-black">

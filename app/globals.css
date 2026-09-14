@@ -13,6 +13,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-orange: #F34200;
+  --color-darkblue: #004a98;
+  --color-lightblue: #dafbff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,4 +38,3 @@ body {
 #bigText {
   font-family: 'Times New Roman', Times, serif;
 }
-
