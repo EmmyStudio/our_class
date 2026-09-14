@@ -21,12 +21,12 @@ export default function ThirD() {
 
                 <div className="flex gap-10">
                     <a href="https://google.com"
-                        className="flex h-14 w-50 items-center justify-center p-5 border border-darkblue bg-lightblue rounded-4xl text-xl text-darkblue hover:bg-orange hover:text-lightblue hover:border-black"
+                        className="flex h-14 w-50 items-center justify-center p-5 border border-darkblue bg-lightblue rounded-4xl text-xl text-darkblue hover:bg-orange/30 hover:text-lightblue hover:border-black hover:shadow-xl"
                     >
                         Claim Now
                     </a>
                     <a href=""
-                        className="flex h-14 w-60 items-center justify-center p-5 border border-pink-100 rounded-4xl text-xl text-pink-100 hover:bg-orange hover:text-lightblue hover:border-black"
+                        className="flex h-14 w-60 items-center justify-center p-5 border border-pink-100 rounded-4xl text-xl text-pink-100 hover:bg-orange/80 hover:text-lightblue hover:border-black hover:shadow-xl"
                     >
                         Talk to an Advisor
                     </a>
