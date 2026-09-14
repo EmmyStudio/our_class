@@ -11,11 +11,12 @@ export default function ThirD() {
             />
             <div className="flex flex-col gap-10 mr-20">
                 <div className="flex flex-col gap-4">
-                    <h1 className="text-7xl max-w-6xl text-white text-center">
-                        Limited Time Offer!
+                    <h1 className="text-4xl max-w-6xl text-white text-center">
+                        Limited Time Offer: <span className="text-yellow-400">Save 40% Off!</span>
                     </h1>
-                    <h3 className="text-white text-3xl">
-                        Enroll now and get 20% OFF on all courses!
+                    <h3 className="text-white text-xl">
+                    Enroll between September 8th – 30th, 2026 to claim your exclusive tuition discount on the CEH v13 AI Training & Certification Exam package.
+!
                     </h3>
                 </div>
 
@@ -28,7 +29,7 @@ export default function ThirD() {
                     <a href=""
                         className="flex h-14 w-60 items-center justify-center p-5 border border-pink-100 rounded-4xl text-xl text-pink-100 hover:bg-pink-100 hover:text-purple-500"
                     >
-                        Contact Now
+                        Talk to an Advisor
                     </a>
                 </div>
             </div>

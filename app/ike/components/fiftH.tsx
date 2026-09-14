@@ -3,7 +3,7 @@ export default function FiftH() {
     return (
         <div className="flex flex-col gap-20">
             <h1 className="text-7xl text-black text-center">
-                Meet Our Language Experts
+                 Meet Our Cybersecurity Instructors
             </h1>
             <div className="flex gap-5 mx-auto">
                 <div className="flex max-w-80 flex-col gap-10 border items-center border-white rounded-3xl bg-pink-100 p-7">

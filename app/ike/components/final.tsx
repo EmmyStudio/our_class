@@ -3,7 +3,7 @@ export default function Final() {
     return (
         <div className="flex flex-col items-center gap-20 bg-zinc-200 p-20">
             <h1 className="text-7xl max-w-6xl text-black text-center">
-                What Our Students Say
+             Testimonials
             </h1>
             <div className="flex flex-col items-center gap-15">
                 <div className="flex items-center h-100 -space-x-25">
@@ -19,7 +19,7 @@ export default function Final() {
                         width={150}
                         height={300}
                         alt="yet another woman"
-                        className="w-55 h-75 rounded-3xl contrast-75 grayscale-[40%] brightness-110"
+                        className="w-55 h-75 z-10 rounded-3xl contrast-75 grayscale-[40%] brightness-110"
                     />
                     <Image
                         src="/man15.jpg"
@@ -44,8 +44,8 @@ export default function Final() {
                     />
                 </div>
                 <div className="flex flex-col items-center gap-10">
-                    <p className="text-3xl text-black max-w-4xl text-center">"Vocadia's business English program gave me the confidence to lead meetings and write professional emails effectively. My career has benefitted greatly from their courses."</p>
-                    <p className="text-3xl text-zinc-500">Julio Arafa</p>
+                    <p className="text-3xl text-black max-w-4xl text-center">"The CEH v13 AI course at New Horizons gave me real-world command over both cutting-edge offensive tools and defense strategies. Passing the exam accelerated my cybersecurity career instantly."</p>
+                    <p className="text-3xl text-zinc-500">Certified Ethical Hacker Alum, New Horizons Nigeria</p>
                 </div>
 
             </div>

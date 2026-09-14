@@ -8,10 +8,10 @@ export default function FourtH() {
                             01.
                         </h1>
                         <h1 className="text-black text-3xl">
-                            Expert Teachers
+                            Certified Instructors
                         </h1>
                     </div>
-                    <p className="text-xl text-zinc-700 max-w-80">Our certified instructors bring years of experience to help you learn effectively</p>
+                    <p className="text-xl text-zinc-700 max-w-80"> Learn directly from accredited ethical hackers and industry veterans.</p>
                 </div>
                 <div className="flex flex-col gap-7 border border-white rounded-3xl bg-pink-100 p-7">
                     <div className="flex items-center gap-5">
@@ -19,19 +19,19 @@ export default function FourtH() {
                             02.
                         </h1>
                         <h1 className="text-black text-3xl">
-                            Flexible Learning
+                            Flexible Class Schedules
                         </h1>
                     </div>
-                    <p className="text-xl text-zinc-700 max-w-80">Access lessons anytime, anywhere to match your schedule</p>
+                    <p className="text-xl text-zinc-700 max-w-80">Join weekday or weekend cohorts built for busy tech professionals.</p>
                 </div>
             </div>
 
             <div className="flex flex-col justify-center">
                 <div className="flex flex-col gap-10">
                     <h1 className="text-7xl text-black text-center max-w-100">
-                        Course Benefits
+                        Why New Horizons?
                     </h1>
-                    <p className="text-2xl text-zinc-500 max-w-100 text-center">Discover why thousands of students trust Vocadia for mastering English</p>
+                    <p className="text-2xl text-zinc-500 max-w-100 text-center">Global standards, practical hands-on labs, and direct pathways to industry certification.</p>
                 </div>
             </div>
 
@@ -42,10 +42,10 @@ export default function FourtH() {
                             03.
                         </h1>
                         <h1 className="text-black text-3xl">
-                            Track Progress
+                        AI-Powered Tooling
                         </h1>
                     </div>
-                    <p className="text-xl text-zinc-700 max-w-85">Get personalized feedback and track your growth through progress reports</p>
+                    <p className="text-xl text-zinc-700 max-w-85">Master modern AI frameworks used in active exploit analysis and defense.</p>
                 </div>
                 <div className="flex flex-col gap-7 border border-white rounded-3xl bg-pink-100 p-7">
                     <div className="flex items-center gap-5">
@@ -53,10 +53,10 @@ export default function FourtH() {
                             04.
                         </h1>
                         <h1 className="text-black text-3xl">
-                            Engaging Lessons
+                        Official Certification Exam
                         </h1>
                     </div>
-                    <p className="text-xl text-zinc-700 max-w-85">Experience lessons that broaden your horizons and expand your repertoire</p>
+                    <p className="text-xl text-zinc-700 max-w-85">Full preparation and support to earn your globally recognized CEH credential.</p>
                 </div>
             </div>
         </div>
