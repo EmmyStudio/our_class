@@ -1,4 +1,8 @@
 import Image from "next/image"
+import { MdOutlineSecurity } from "react-icons/md";
+import { PiExamFill } from "react-icons/pi";
+import { GrCertificate } from "react-icons/gr";
+
 export default function SeconD() {
     return (
         <div className="flex flex-col items-center gap-20">
@@ -7,13 +11,7 @@ export default function SeconD() {
             </h1>
             <div className="flex gap-5">
                 <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10">
-                    <Image
-                        src="/firstIcon.png"
-                        width={100}
-                        height={100}
-                        alt="icon1"
-                        className="w-20 h-20 object-cover border bg-orange rounded-full"
-                    />
+                    <MdOutlineSecurity className="w-20 h-20"/>
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-black">
                             Foundational Security & <br/> Defense
@@ -23,13 +21,7 @@ export default function SeconD() {
 
                 </div>
                 <div className="flex flex-col items-center gap-7 border border-darkblue rounded-3xl bg-darkblue p-5 pr-10 pl-10">
-                    <Image
-                        src="/secondIcon.png"
-                        width={100}
-                        height={100}
-                        alt="icon2"
-                        className="w-20 h-20 object-cover border bg-lightblue p-1 rounded-full"
-                    />
+                    <PiExamFill className="w-20 h-20" />
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-zinc-200">
                             Exam Prep & Practical Labs
@@ -39,13 +31,7 @@ export default function SeconD() {
 
                 </div>
                 <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10">
-                    <Image
-                        src="/thirdIcon.png"
-                        width={100}
-                        height={100}
-                        alt="icon3"
-                        className="w-20 h-20 object-cover border bg-orange p-1 rounded-full"
-                    />
+                    <GrCertificate className="w-20 h-20"/>
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-black">
                             CEH v13 AI Certification
