@@ -16,7 +16,7 @@ export default function () {
                         </h1>
                         <div className="flex justify-between gap-20">
                             <div className="flex flex-col gap-5 text-center">
-                                <div className="flex flex-col gap-5 items-center justify-center border border-darkblue/30 rounded-4xl bg-darkblue p-7 w-65 transition-all duration-300 hover:shadow-xl hover:rounded-full hover:scale-105">
+                                <div className="flex flex-col gap-5 items-center justify-center border border-darkblue/30 rounded-4xl bg-darkblue p-7 w-65 transition-all duration-300 hover:shadow-xl hover:scale-105">
                                     <h1 className="text-8xl text-lightblue text-center font-bold" id="bigText">
                                         #1
                                     </h1>
@@ -87,14 +87,14 @@ export default function () {
                 </div>
 
                 <SeconD />
-                <ThirD />
+            </div>
+            <ThirD />
+            <div className="flex flex-col gap-40 bg-white p-15">
                 <FourtH />
                 <FiftH />
                 <SixtH />
-
             </div>
             <Final />
-
         </>
     )
 }
