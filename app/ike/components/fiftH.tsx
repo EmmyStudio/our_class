@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function FiftH() {
     return (
         <div className="flex flex-col gap-20">
-            <h1 className="text-7xl text-black text-center">
+            <h1 className="text-7xl text-black text-center" id="biggerText">
                  Meet Our Cybersecurity Instructors
             </h1>
             <div className="flex gap-5 mx-auto">

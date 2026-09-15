@@ -10,7 +10,7 @@ export default function SeconD() {
                  Core Cybersecurity Tracks
             </h1>
             <div className="flex gap-5">
-                <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10">
+                <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10 transition-all duration-300 hover:shadow-xl hover:scale-105">
                     <MdOutlineSecurity className="w-20 h-20"/>
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-black">
@@ -20,7 +20,7 @@ export default function SeconD() {
                     </div>
 
                 </div>
-                <div className="flex flex-col items-center gap-7 border border-darkblue rounded-3xl bg-darkblue p-5 pr-10 pl-10">
+                <div className="flex flex-col items-center gap-7 border border-darkblue rounded-3xl bg-darkblue p-5 pr-10 pl-10 transition-all duration-300 hover:shadow-xl hover:scale-105">
                     <PiExamFill className="w-20 h-20" />
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-zinc-200">
@@ -30,7 +30,7 @@ export default function SeconD() {
                     </div>
 
                 </div>
-                <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10">
+                <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10 transition-all duration-300 hover:shadow-xl hover:scale-105">
                     <GrCertificate className="w-20 h-20"/>
                     <div className="flex flex-col gap-7 items-center">
                         <h1 className="text-3xl text-center text-black">

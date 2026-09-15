@@ -28,7 +28,7 @@ export default function FourtH() {
 
             <div className="flex flex-col justify-center">
                 <div className="flex flex-col gap-10">
-                    <h1 className="text-7xl text-black text-center max-w-100">
+                    <h1 className="text-7xl text-black text-center max-w-100" id="biggerText">
                         Why New Horizons?
                     </h1>
                     <p className="text-2xl text-zinc-500 max-w-100 text-center">Global standards, practical hands-on labs, and direct pathways to industry certification.</p>

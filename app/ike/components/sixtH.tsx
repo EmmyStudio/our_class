@@ -2,11 +2,11 @@ import Image from "next/image";
 export default function SixtH() {
     return (
         <div className="flex flex-col gap-30">
-            <h1 className="text-7xl text-black text-center">
+            <h1 className="text-7xl text-black text-center" id="biggerText">
                 Choose the Plan That Fits You Best
             </h1>
             <div className="flex items-center gap-5 mx-auto">
-                <div className="flex flex-col items-center gap-5 border border-white bg-orange rounded-3xl p-10">
+                <div className="flex flex-col items-center gap-5 border border-white bg-orange rounded-3xl p-10 transition-all duration-300 hover:shadow-xl hover:scale-105">
                     <Image
                         src="/firstIcon.png"
                         width={50}
@@ -40,7 +40,7 @@ export default function SixtH() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-5 border border-white bg-darkblue rounded-3xl p-10 h-150">
+                <div className="flex flex-col items-center justify-center gap-5 border border-white bg-darkblue rounded-3xl p-10 h-150 transition-all duration-300 hover:shadow-xl hover:scale-105">
                     <Image
                         src="/secondIcon.png"
                         width={50}
@@ -74,7 +74,7 @@ export default function SixtH() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col items-center gap-5 border border-white bg-orange rounded-3xl p-10">
+                <div className="flex flex-col items-center gap-5 border border-white bg-orange rounded-3xl p-10 transition-all duration-300 hover:shadow-xl hover:scale-105">
                     <Image
                         src="/firstIcon.png"
                         width={50}

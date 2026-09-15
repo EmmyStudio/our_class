@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function ThirD() {
     return (
-        <div className="flex items-center justify-center gap-20 border border-darkblue bg-darkblue rounded-4xl ml-30 mr-30">
+        <div className="flex items-center justify-center gap-20 border border-darkblue bg-darkblue rounded-4xl ml-30 mr-30 transition-all duration-300 hover:shadow-2xl hover:shadow-black hover:scale-115">
             <Image
                 src="/woman.png"
                 width={400}

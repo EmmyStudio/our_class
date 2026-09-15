@@ -11,7 +11,7 @@ export default function () {
             <div className="flex flex-col gap-40 bg-white p-15">
                 <div className="flex flex-col border border-white rounded-4xl bg-black gap-10 pd-15">
                     <div className="flex flex-col bg-lightblue border border-white rounded-4xl items-center gap-10 pt-15 pl-15 pr-15">
-                        <h1 className="text-7xl max-w-4xl text-black text-center font-bold" id="biggerText">
+                        <h1 className="text-7xl max-w-4xl text-orange text-center font-bold" id="biggerText">
                              Master Ethical Hacking with CEH v13 AI
                         </h1>
                         <div className="flex justify-between gap-20">
@@ -23,10 +23,10 @@ export default function () {
                                     <p className="max-w-40 text-white text-xl text-center">ICT Training Institute</p>
                                 </div>
                                 <div className="flex flex-col gap-5">
-                                    <p className="flex justify-center border rounded-3xl hover:shadow-xl border border-orange/30 border-3 bg-orange/30 text-lightblue p-2 max-w-40">AI-Driven Hacking</p>
-                                    <p className="flex justify-center border rounded-3xl hover:shadow-xl border border-darkblue/30 border-3 bg-darkblue/30 text-darkblue p-2 w-40 ml-auto">Threat Defense</p>
-                                    <p className="flex justify-center border rounded-3xl hover:shadow-xl border border-orange/30 border-3 bg-orange/30 text-lightblue p-2 max-w-40">Hands-on Labs</p>
-                                    <p className="flex justify-center border rounded-3xl hover:shadow-xl border border-darkblue/30 border-3 bg-darkblue/30 text-darkblue p-2 w-40 ml-auto">v13 AI Curriculum</p>
+                                    <p className="flex justify-center border rounded-3xl hover:shadow-xl border border-orange/30 border-3 bg-orange/30 text-lightblue p-2 max-w-40 transition-all duration-300 hover:shadow-xl hover:scale-105">AI-Driven Hacking</p>
+                                    <p className="flex justify-center border rounded-3xl hover:shadow-xl border border-darkblue/30 border-3 bg-darkblue/30 text-darkblue p-2 w-40 ml-auto transition-all duration-300 hover:shadow-xl hover:scale-105">Threat Defense</p>
+                                    <p className="flex justify-center border rounded-3xl hover:shadow-xl border border-orange/30 border-3 bg-orange/30 text-lightblue p-2 max-w-40 transition-all duration-300 hover:shadow-xl hover:scale-105">Hands-on Labs</p>
+                                    <p className="flex justify-center border rounded-3xl hover:shadow-xl border border-darkblue/30 border-3 bg-darkblue/30 text-darkblue p-2 w-40 ml-auto transition-all duration-300 hover:shadow-xl hover:scale-105">v13 AI Curriculum</p>
                                 </div>
                             </div>
                             <Image
