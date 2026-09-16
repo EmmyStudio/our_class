@@ -5,6 +5,8 @@ import FourtH from "./components/fourtH";
 import FiftH from "./components/fiftH";
 import SixtH from "./components/sixtH";
 import Final from "./components/final";
+import Motionnn from "./components/motion components/motionnn";
+import { FaAward } from "react-icons/fa";
 export default function () {
     return (
         <>
@@ -16,10 +18,12 @@ export default function () {
                         </h1>
                         <div className="flex justify-between gap-20">
                             <div className="flex flex-col gap-5 text-center">
-                                <div className="flex flex-col gap-5 items-center justify-center border border-darkblue/30 rounded-4xl bg-darkblue p-7 w-65 transition-all duration-300 hover:shadow-xl hover:scale-105">
-                                    <h1 className="text-8xl text-lightblue text-center font-bold" id="bigText">
-                                        #1
-                                    </h1>
+                                <div className="flex flex-col gap-5 items-center justify-center border border-darkblue/30 rounded-4xl bg-darkblue/40 p-7 w-65 transition-all duration-300 hover:shadow-xl hover:scale-105">
+                                    <div className="flex">
+                                        <h1 className="text-8xl text-darkblue text-center font-bold" id="bigText">
+                                            <span className="text-6xl">#</span>1
+                                        </h1>
+                                    </div>
                                     <p className="max-w-40 text-white text-xl text-center">ICT Training Institute</p>
                                 </div>
                                 <div className="flex flex-col gap-5">
@@ -53,37 +57,7 @@ export default function () {
                             </div>
                         </div>
                     </div>
-                    <div className="p-15">
-                        <div className="flex justify-between gap-10">
-                            <div className="flex flex-col gap-10">
-                                <h1 className="text-4xl text-orange">
-                                    About New Horizons Nigeria
-                                </h1>
-                                <div className="flex gap-10">
-                                    <div>
-                                        <h1 className="text-3xl text-darkblue">
-                                            v13 AI
-                                        </h1>
-                                        <p className="text-lightblue text-xl">Latest Curriculum</p>
-                                    </div>
-                                    <div>
-                                        <h1 className="text-3xl text-darkblue">
-                                            100%
-                                        </h1>
-                                        <p className="text-lightblue text-xl">Exam-Aligned Labs</p>
-                                    </div>
-                                    <div>
-                                        <h1 className="text-3xl text-darkblue">
-                                            77
-                                        </h1>
-                                        <p className="text-lightblue text-xl">Top Mentors</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <p className="text-white max-w-200 text-2xl">At New Horizons Nigeria, we offer comprehensive cybersecurity training programs designed to equip you with the latest skills and knowledge in ethical hacking and network defense. Join us to advance your career in the ever-evolving field of cybersecurity.</p>
-                        </div>
-                    </div>
-
+                    <Motionnn />
                 </div>
                 <SeconD />
             </div>
