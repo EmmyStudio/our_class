@@ -4,8 +4,8 @@ import { FaAward } from "react-icons/fa";
 import { FaBuilding } from "react-icons/fa";
 export default function SixtH() {
     return (
-        <div className="flex flex-col gap-30">
-            <h1 className="text-7xl text-black text-center" id="biggerText">
+        <div className="flex flex-col gap-20">
+            <h1 className="text-6xl text-black text-center" id="biggerText">
                 Choose the Plan That Fits You Best
             </h1>
             <div className="flex items-center gap-5 mx-auto">

@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Final() {
     return (
         <div className="flex flex-col items-center gap-15 bg-lightblue p-15">
-            <h1 className="text-7xl max-w-6xl text-black text-center" id="biggerText">
+            <h1 className="text-6xl max-w-6xl text-black text-center" id="biggerText">
              Testimonials
             </h1>
             <div className="flex flex-col items-center gap-10">

@@ -9,7 +9,7 @@ export default function () {
     return (
         <>
             <div className="flex flex-col gap-40 bg-white p-15">
-                <div className="flex flex-col border border-white rounded-4xl bg-black gap-10 pd-15">
+                <div className="flex flex-col rounded-4xl bg-black gap-10 pd-15">
                     <div className="flex flex-col bg-lightblue border border-white rounded-4xl items-center gap-10 pt-15 pl-15 pr-15">
                         <h1 className="text-7xl max-w-4xl text-darkblue text-center font-bold" id="biggerText">
                             Master Ethical Hacking with CEH v13 AI
@@ -85,12 +85,13 @@ export default function () {
                     </div>
 
                 </div>
-
                 <SeconD />
             </div>
             <ThirD />
-            <div className="flex flex-col gap-40 bg-white p-15">
+            <div className="flex flex-col gap-40 bg-zinc-100 p-15">
                 <FourtH />
+            </div>
+            <div className="flex flex-col gap-40 bg-white p-15">
                 <FiftH />
                 <SixtH />
             </div>
