@@ -15,7 +15,7 @@ export default function Second() {
 
         viewport={{ once: false, margin: "-100px" }}
 
-        className="flex gap-5">
+        className="flex flex-col lg:flex-row gap-5">
             <div className="flex flex-col items-center gap-7 border border-lightblue rounded-3xl bg-lightblue p-5 pr-10 pl-10 transition-all duration-300 hover:shadow-xl hover:scale-105">
                 <MdOutlineSecurity className="w-20 h-20 text-orange" />
                 <div className="flex flex-col gap-7 items-center">

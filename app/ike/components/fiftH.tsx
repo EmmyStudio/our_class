@@ -5,20 +5,20 @@ export default function FiftH() {
             <h1 className="text-6xl text-black text-center" id="biggerText">
                 Meet Our Previous Clients
             </h1>
-            <div className="flex gap-5 mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mx-auto">
                 <div className="flex max-w-80 flex-col gap-7 border items-center border-white rounded-3xl bg-lightblue p-7">
                     <Image
                         src="/man1.jpg"
                         width={300}
                         height={200}
                         alt="first man"
-                        className="rounded-3xl"
+                        className="h-66 rounded-3xl"
                     />
                     <div className="flex flex-col gap-5 mt-auto">
                         <h1 className="text-3xl text-black">
                             John Smith
                         </h1>
-                        <p className="text-2xl w-63 text-zinc-700">Experienced Cybersecurity Analyst with 15+ years of experience</p>
+                        <p className="text-2xl max-w-63 text-zinc-700">Experienced Cybersecurity Analyst with 15+ years of experience</p>
                     </div>
                 </div>
                 <div className="flex max-w-80 flex-col gap-7 border border-white rounded-3xl bg-orange/40 p-7">
@@ -33,7 +33,7 @@ export default function FiftH() {
                         <h1 className="text-3xl text-black mt-auto">
                             Robert Lee
                         </h1>
-                        <p className="text-2xl w-63 text-zinc-700">Governance and Risk Analyst</p>
+                        <p className="text-2xl max-w-63 text-zinc-700">Governance and Risk Analyst</p>
                     </div>
 
                 </div>
@@ -48,7 +48,7 @@ export default function FiftH() {
                         <h1 className="text-3xl text-black mt-auto">
                             Sophia Marti
                         </h1>
-                        <p className="text-2xl w-63 text-zinc-700">Security Operations Center Analyst</p>
+                        <p className="text-2xl max-w-63 text-zinc-700">Security Operations Center Analyst</p>
                     </div>
 
                 </div>
@@ -63,7 +63,7 @@ export default function FiftH() {
                         <h1 className="text-3xl text-black mt-auto">
                             Roberta Lee
                         </h1>
-                        <p className="text-2xl w-63 text-zinc-700">Computer Engineering Undergraduate</p>
+                        <p className="text-2xl max-w-63 text-zinc-700">Computer Engineering Undergraduate</p>
                     </div>
                 </div>
             </div>

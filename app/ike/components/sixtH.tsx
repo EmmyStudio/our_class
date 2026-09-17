@@ -8,7 +8,7 @@ export default function SixtH() {
             <h1 className="text-6xl text-black text-center" id="biggerText">
                 Choose the Plan That Fits You Best
             </h1>
-            <div className="flex items-center gap-5 mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center gap-5 mx-auto">
                 <div className="flex flex-col items-center gap-5 border border-white bg-orange rounded-3xl p-10 transition-all duration-300 hover:shadow-xl hover:scale-105">
                     <FaGraduationCap className="w-15 h-15 text-white"/>
                     <h3 className="text-black text-3xl">
