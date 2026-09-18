@@ -10,10 +10,10 @@ import { FaAward } from "react-icons/fa";
 export default function () {
     return (
         <>
-            <div className="flex flex-col gap-40 bg-white p-5 sm:p-10 lg:p-15">
+            <div className="flex flex-col gap-40 bg-white sm:p-10 lg:p-15">
                 <div className="flex flex-col rounded-4xl bg-black gap-10 pd-15">
-                    <div className="flex flex-col bg-lightblue border border-white rounded-4xl items-center gap-10 lg:pt-15 lg:pl-15 lg:pr-15">
-                        <h1 className="text-7xl max-w-4xl text-darkblue text-center font-bold" id="biggerText">
+                    <div className="flex flex-col bg-lightblue border border-white rounded-4xl items-center gap-10 sm:pt-10 sm:pl-10 sm:pr-10 lg:pt-15 lg:pl-15 lg:pr-15">
+                        <h1 className="text-3xl sm:text-5xl lg:text-7xl max-w-4xl text-darkblue text-center font-bold" id="biggerText">
                             Master Ethical Hacking with CEH v13 AI
                         </h1>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20">
