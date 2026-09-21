@@ -62,7 +62,9 @@ export default function () {
                 <SeconD />
             </div>
             <ThirD />
-            <div className="flex flex-col gap-40 bg-zinc-100 p-15">
+            <div className="relative bg-[url('/corpers.jpg')] bg-cover bg-center bg-no-repeat
+            before:absolute before:inset-0 before:bg-black/30
+            flex flex-col gap-40 bg-zinc-100 p-15">
                 <FourtH />
             </div>
             <div className="flex flex-col gap-40 bg-white p-15">
