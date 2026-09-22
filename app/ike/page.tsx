@@ -38,7 +38,7 @@ export default function () {
                                 width={500}
                                 height={400}
                                 alt="cybersecurity guy"
-                                className="mt-auto h-150 w-100"
+                                className="mt-auto  h-50 w-40 sm:h-150 sm:w-100 "
                             />
                             <div className="flex flex-col items-center gap-7 sm:m-auto">
                                 <div className="p-5 rounded-full bg-orange/60">
